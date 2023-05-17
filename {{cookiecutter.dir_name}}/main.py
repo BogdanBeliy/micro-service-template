@@ -9,4 +9,4 @@ app = FastAPI(
 
 @app.get("/")
 async def root():
-    return {"message": "Hello {{cookiecutter.service_name}}"}
+    return {"message": "Hello {{cookiecutter.project_title}}"}
