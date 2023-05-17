@@ -1,7 +1,7 @@
 # Базовый шаблон микросервиса
 
 ### Для запуска проекта:
-* Установить cookiecutter глобально
+* Установить cookiecutter глобально (https://github.com/audreyr/cookiecutter)
 ```
 pip install cookiecutter
 ```
