@@ -1,5 +1,6 @@
 {
   "project_title": "Project Name",
   "project_version": "v0.0.1",
-  "project_description": "Project description"
+  "project_description": "Project description",
+  "postgres_port": 5432
 }

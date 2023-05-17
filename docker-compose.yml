@@ -1,2 +1,15 @@
-# TODO добавить БД
+version: '3.5'
 
+services:
+
+  postgres:
+    image: postgres:14.2
+    container_name: reports_postgres
+    ports:
+      - "{{cookiecutter.postgres_port}}:5432"
+    volumes:
+      - 'pgdata:/var/lib/postgresql/data'
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    networks:
+      - main
