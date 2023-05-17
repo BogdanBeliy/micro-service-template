@@ -1,3 +1,5 @@
 {
-  "service_name": "Default"
+  "project_title": "Project Name",
+  "project_version": "v0.0.1",
+  "project_description": "Project description"
 }
