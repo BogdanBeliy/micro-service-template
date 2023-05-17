@@ -4,5 +4,6 @@
   "project_version": "v0.0.1",
   "project_description": "Project description",
   "postgres_port": 5432,
-  "docker_network_name": "main"
+  "docker_network_name": "main",
+  "container_name": "project"
 }

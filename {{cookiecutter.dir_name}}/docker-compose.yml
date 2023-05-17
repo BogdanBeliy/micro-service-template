@@ -4,7 +4,7 @@ services:
 
   postgres:
     image: postgres:14.2
-    container_name: reports_postgres
+    container_name: {{cookiecutter.container_name}}_postgres
     ports:
       - "{{cookiecutter.postgres_port}}:5432"
     volumes:
