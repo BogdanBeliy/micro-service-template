@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 88
+max-complexity = 21
+extend-ignore = E203, B008, S101, S311, S608, H301, H306, H101, H404, H405, ANN101, SCS108, N815, FNE008, G004, N801, CCE001
