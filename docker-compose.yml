@@ -12,4 +12,9 @@ services:
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
     networks:
-      - main
+      - {{cookiecutter.docker_network_name}}
+
+
+networks:
+  {{cookiecutter.docker_network_name}}:
+    driver: bridge
