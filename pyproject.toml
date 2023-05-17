@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "micro-service-template"
+version = "0.1.0"
+description = ""
+authors = ["Богдан Белый <uxui.des@gmail.com>"]
+readme = "README.md"
+packages = [{include = "micro_service_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.2"
+uvicorn = "^0.22.0"
+alembic = "^1.11.0"
+sqlalchemy = "^2.0.13"
+psycopg2-binary = "^2.9.6"
+asyncpg = "^0.27.0"
+pytest = "^7.3.1"
+pre-commit = "^3.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
