@@ -1,6 +1,6 @@
 from loguru import logger
 
-from core.db_conn.db_settings import get_settings
+from core.settings import get_settings
 from core.log.formatters import (
     log_format,
     loglevel_mapping,
@@ -11,7 +11,7 @@ logger.remove()
 logger.add(
     sink=standard_web_sink_serializer,
     format=log_format["service_log"],
-    # level=loglevel_mapping[get_settings().LOG_LEVEL],
+    level=loglevel_mapping[get_settings().LOG_LEVEL],
 )
 
 
